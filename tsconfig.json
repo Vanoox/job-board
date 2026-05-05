@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "lib": ["ESNext"],
+    "types": ["node"],
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+
+    /* Modules */
+    "sourceMap": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "newLine": "lf",
+    "forceConsistentCasingInFileNames": true,
+    "rewriteRelativeImportExtensions": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictBindCallApply": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "verbatimModuleSyntax": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+
+    /* Completeness */
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
